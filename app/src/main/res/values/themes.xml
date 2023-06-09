@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Napptilus" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Napptilus.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Napptilus.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Napptilus.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

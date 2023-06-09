@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Napptilus</string>
+    <string name="btn_welcome">WELCOME</string>
+    <string name="title_list_employees">LIST OF EMPLOYEES</string>
+</resources>
