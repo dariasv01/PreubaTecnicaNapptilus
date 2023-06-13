@@ -3,6 +3,7 @@ package com.example.napptilus.data.listEmployees.network
 import com.example.napptilus.data.listEmployees.network.model.ListEmployeesModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import java.util.concurrent.TimeoutException
 import javax.inject.Inject
 
 class ListEmployeesService @Inject constructor(private val listEmployeesClient: ListEmployeesClient) {
@@ -24,7 +25,7 @@ class ListEmployeesService @Inject constructor(private val listEmployeesClient: 
                 result
 
             }
-        }catch (e:Exception){
+        }catch (e:TimeoutException){
             return ListEmployeesModel(employees = arrayOf(), codeStatusval = 3)
         }
 
