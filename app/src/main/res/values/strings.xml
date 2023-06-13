@@ -2,4 +2,36 @@
     <string name="app_name">Napptilus</string>
     <string name="btn_welcome">WELCOME</string>
     <string name="title_list_employees">LIST OF EMPLOYEES</string>
+<!--    ItemList-->
+    <string name="lbl_name">Name</string>
+    <string name="lbl_last_name">Last Name</string>
+    <string name="lbl_profession">Profession</string>
+<!--    Alert-->
+    <string name="btn_accept">Accept</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="msg_error_title">ERROR</string>
+    <string name="msg_error_text">Try again later</string>
+<!--    Toast-->
+    <string name="msg_last_item">Last Item</string>
+<!--    Employee-->
+    <string name="lbl_email">Email</string>
+    <string name="lbl_age">Age</string>
+    <string name="lbl_county">Country</string>
+    <string name="lbl_gender">Gender</string>
+    <string name="lbl_gender_M">Male</string>
+    <string name="lbl_gender_F">Female</string>
+    <string name="lbl_description">Description</string>
+    <string name="lbl_quota">Quota</string>
+    <string name="lbl_read_more">Read more</string>
+    <string name="lbl_selected_profession">Selected Profession</string>
+    <string name="lbl_selected_gender">Selected Gender</string>
+<!--Profession-->
+    <string-array name="professionList">
+        <item>Developer</item>
+        <item>Metalworker</item>
+        <item>Medic</item>
+        <item>Gemcutter</item>
+        <item>Brewer</item>
+    </string-array>
 </resources>

@@ -10,6 +10,8 @@
 <!--    BTN Welcome-->
     <color name="btn_background">#FBD300</color>
     <color name="btn_text">#770000</color>
+    <color name="btn_background_disabled">#3F3E3E</color>
+    <color name="btn_text_disabled">#FBEC69</color>
 <!--    ItemList-->
     <color name="itemList_background">#FBEC69</color>
 

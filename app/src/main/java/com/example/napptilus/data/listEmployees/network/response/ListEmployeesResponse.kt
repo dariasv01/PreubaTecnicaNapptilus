@@ -38,11 +38,11 @@ data class EmployeesListItem(
 
 data class Favorite(
     @SerializedName("color")
-    val color: String,
+    val color: String ?= "",
     @SerializedName("food")
-    val food: String,
+    val food: String ?= "",
     @SerializedName("random_string")
-    val random_string: String,
+    val random_string: String ?= "",
     @SerializedName("song")
-    val song: String
+    val song: String ?= ""
 )
