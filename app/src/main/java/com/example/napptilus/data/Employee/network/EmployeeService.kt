@@ -13,7 +13,7 @@ class EmployeeService @Inject constructor(private val employeeClient: EmployeeCl
                 val response = employeeClient.getEmployee(id)
                 response.body()!!
                 val result: EmployeeModel
-                if (response.isSuccessful) {
+                if (!response.isSuccessful) {
                     result = EmployeeModel(employee = EmployeeResponse(), codeStatusval = 3)
                 } else {
                     result = EmployeeModel(
